@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import { useGlobalContext } from '../context/context'
-import {FaSearch} from 'react-icons/fa'
+import React from 'react';
+import { useGlobalContext } from '../context/context';
+
 const Search = () => {
 
 const {text,setText} = useGlobalContext();
